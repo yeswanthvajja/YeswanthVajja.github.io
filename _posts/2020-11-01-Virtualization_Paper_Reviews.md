@@ -13,7 +13,7 @@ comments: true
 #     show_overlay_excerpt: false
 #     actions:
 #     - label: "GitHub"
-#       url: "https://gist.github.com/PrudhviVajja"
+#       url: "https://gist.github.com/YeswanthVajja"
 tags: [XEN, KVM, BinaryTranslation, virtualization]
 ---
 

@@ -14,7 +14,7 @@ comments: true
 #     show_overlay_excerpt: false
 #     actions:
 #     - label: "GitHub Code"
-#       url: "https://github.com/Prudhvi0001/MNIST/blob/master/MNIST_Pytorch.ipynb"
+#       url: "https://github.com/Yeswanth0001/MNIST/blob/master/MNIST_Pytorch.ipynb"
 tags: [PyTorch, NN, Beginner]
 ---
 
@@ -23,9 +23,9 @@ tags: [PyTorch, NN, Beginner]
 *Okay, here’s an original one : 
 So, they ran a deep neural network to predict the hottest technological trend of 2014. Surprisingly, it predicted the answer to be deep neural networks! People accused it was biased. NN coders assumed it was probably due to the large initial bias.*😅
 
-To jump directly to [code](https://github.com/Prudhvi0001/MNIST/blob/master/MNIST_Pytorch.ipynb).
+To jump directly to [code](https://github.com/Yeswanth0001/MNIST/blob/master/MNIST_Pytorch.ipynb).
 
-[Here is a link for more best resources to learn Data Science.](https://github.com/Prudhvi0001/Data-science-best-resources)
+[Here is a link for more best resources to learn Computer Science.](https://github.com/Yeswanth0001/Data-science-best-resources)
 
 If you already used TenserFlow or keras to create Neural Network architecture this is gonna be a cake walk for you. Although TenserFlow is great for creating models it doesn't’t support GPU as efficiently as PyTorch.
 

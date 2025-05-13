@@ -14,7 +14,7 @@ comments: true
 #     show_overlay_excerpt: false
 #     actions:
 #     - label: "GitHub"
-#       url: "https://gist.github.com/PrudhviVajja"
+#       url: "https://gist.github.com/YeswanthVajja"
 tags: [DataProcessing, Pandas, Python]
 ---
 
@@ -46,7 +46,7 @@ Before going into multiprocessing & GPU’s, etc… let us see how to use *pd.re
 
 Rather than loading data and removing unnecessary columns that aren’t useful when processing your data. load only the useful columns.
 
-<script src="https://gist.github.com/PrudhviVajja/b2a87550ccc9ad1e6eb94df82339b2ff.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/b2a87550ccc9ad1e6eb94df82339b2ff.js"></script>
 
 ### **2*.* Using correct dtypes for numerical data:**
 
@@ -60,7 +60,7 @@ Every column has it’s own dtype in a pandas DataFrame, for example, integers h
 
 Pandas assign int64 to integer datatype by default, therefore by defining correct dtypes we can reduce memory usage significantly.
 
-<script src="https://gist.github.com/PrudhviVajja/5d0d90e2e0d6adaea50cc7d4acf58e22.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/5d0d90e2e0d6adaea50cc7d4acf58e22.js"></script>
 
 **🔥 Pro Tip:** Use converters to replace missing values or NANs while loading data, especially for the columns that have predefined datatypes using dtype.
 
@@ -76,11 +76,11 @@ In my Dataset, I have a column Thumb which is by default parsed as a string, but
 
 And also columns such as Gender, etc.. can be stored as [categorical](https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html) values which reduces the memory from ~1000 KB to ~100 KB. (check the sats)
 
-<script src="https://gist.github.com/PrudhviVajja/f76c4c0318cd3785a27618a09f53fad3.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/f76c4c0318cd3785a27618a09f53fad3.js"></script>
 
 **🔥 Pro Tip:** If your DataFrame contains lots of empty values or missing values or NANs you can reduce their memory footprint by converting them to [Sparse Series](https://pandas.pydata.org/pandas-docs/stable/user_guide/sparse.html).
 
-<script src="https://gist.github.com/PrudhviVajja/65b3c06c36b558f5de7af8fec49381fe.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/65b3c06c36b558f5de7af8fec49381fe.js"></script>
 
 ### ***4. nrows, skip rows***
 
@@ -140,7 +140,7 @@ Memory [Issues](https://wesmckinney.com/blog/update-on-upcoming-pandas-v0-10-new
 
 **Note:** loading data in chunks is actually slower than reading whole data directly as you need to concat the chunks again but you can load files with more than 10’s of GB’s easily.
 
-<script src="https://gist.github.com/PrudhviVajja/8309cb7ca2e833b3401026acbd97cb2c.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/8309cb7ca2e833b3401026acbd97cb2c.js"></script>
 
 <iframe src="https://giphy.com/embed/3rgXBsmYd60rL3w7sc" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/nicolettegroome-animation-adventure-time-bmo-3rgXBsmYd60rL3w7sc">via GIPHY</a></p>
 
@@ -148,7 +148,7 @@ Memory [Issues](https://wesmckinney.com/blog/update-on-upcoming-pandas-v0-10-new
 
 As pandas don’t have njobs variable to make use of multiprocessing power. we can utilize multiprocessinglibrary to handle chunk size operations asynchronously on multi-threads which can reduce the run time by half.
 
-<script src="https://gist.github.com/PrudhviVajja/b0c7f7aab2bfe6a261d6ec957a07f609.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/b0c7f7aab2bfe6a261d6ec957a07f609.js"></script>
 
 > **Note: **you need to define pool in __main__ only because only main can distribute pool asynchronously among multiple processers.
 
@@ -178,4 +178,4 @@ Thanks for reaching until the end, I hope you learned something new. Happy Loadi
 
 🔥 [Gouthaman Balaraman](http://gouthamanbalaraman.com/) — quantitative finance with python (Must ✅).
 
-Connect with me on [Linkedin](https://www.linkedin.com/in/prudhvi-vajja-22079610b/).
+Connect with me on [Linkedin](https://www.linkedin.com/in/Yeswanth-vajja-22079610b/).

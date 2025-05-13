@@ -1,8 +1,8 @@
-I"�	<blockquote>
+I"�	<blockquote>
   <p>What consumes your mind controls your life</p>
 </blockquote>
 
-<p>I am <strong>Data Scientist</strong> expanding my skill set by understanding and implementing state of the art machine learning and deep learning techniques.</p>
+<p>I am <strong>Software Developer</strong> expanding my skill set by understanding and implementing state of the art machine learning and deep learning techniques.</p>
 
 <h3 id="hobbies">Hobbies:</h3>
 <ul>
@@ -19,9 +19,14 @@
       <li>Python, R, Matlab, SQL</li>
     </ul>
   </li>
+  <li><strong>Web Developement :</strong>
+    <ul>
+      <li>AHTML, CSS, JavaScript, React, Angular</li>
+    </ul>
+  </li>
   <li><strong>Cloud &amp; DataBase :</strong>
     <ul>
-      <li>AWS, PostgreSQL, Hadoop MapReduce, Spark, Git</li>
+      <li>Docker, Kubernetes, SQL & MYSQL server, GraphQL, DynamoDB, AWS, NoSQL - MongoDB</li>
     </ul>
   </li>
   <li><strong>Software Tools :</strong>
@@ -39,37 +44,41 @@
 <h3 id="experience">Experience:</h3>
 
 <ul>
-  <li><strong>TATA Consultancy</strong> <em>Data Analyst, New Delhi</em>
+  <li><strong>Expedia Group</strong> <em>Full Stack Developer, Seattle, WA</em>
     <ul>
-      <li>Developed an Algorithm using Claims Data to minimize the risk of inventory and saving 150+ hours of man power.</li>
-      <li>Created and Optimized SQL Queries using Relational Algebra methods and reduced the run-time by 40%. Awarded pat on the back.</li>
-      <li>Automated the process of DataCleaning using python ands hell scripting.</li>
+      <li>Delivered robust Java-based microservices using Spring Boot, optimized for performance, scalability, and fault-tolerance across production workloads.</li>
+      <li>Used AWS services like EC2, S3, CloudWatch, and Lambda to deploy, monitor, and troubleshoot backend systems, reducing operational downtime by 40%.</li>
+      <li>Led a four-member team in integrating E-visa, Award Wallet, and Ticketmaster APIs during Expedia’s 2023 hackathon, achieving 3rd place in North America and progressing toward production launch.</li>
+      <li>Automated metrics collection and alerting using CloudWatch and ELK, improving incident response time by 30%.</li>
+      <li>Identified and optimized inefficient DynamoDB access patterns, reducing AWS costs by 8%, and enhanced deployment efficiency by transitioning to GitHub Actions, reducing times by 60%.</li>
+      <li>Investigated and resolved production issues through deep log analysis and SQL queries, achieving a 98% SLA resolution rate.</li>
+      <li>Developed and maintained innovative backend APIs that enhanced user collaboration on trip planning, increasing user conversion rates by 20% and new sign-ups by 15%.</li>
+      <li>Conducted over 10 Root Cause Analyses and provided post-mortem documentation to prevent recurring incidents.</li>
     </ul>
   </li>
-  <li><strong>Mesh Labs</strong> <em>Contributor + Testing, IUB</em>
+  <li><strong>Wayne State University</strong> <em>Graduate Teaching Assitant, Detroit, MI</em>
     <ul>
-      <li>Contributed with research associates in developing open source visualization jupyter notebook apps for NanoHub.org.</li>
-      <li>Created and deployed working apps for visualizing NanoMicrobealignment with live data using 3D models. NanoparticleShape.</li>
+      <li>where I have skillfully led various programming courses to improve students’ grasp of web and software development.</li>
+      <li>In Web Technology and Java Programming courses, I focused on critical programming principles such as object-oriented programming, data structures, and algorithms. helped students develop strong analytical and problem-solving skills.</li>
     </ul>
   </li>
-  <li><strong>IIT Bombay</strong> <em>Data Science Workshop, Intern</em>
+  <li><strong>ITC Infotech</strong> <em>Software Developer, Bengalore, IN</em>
     <ul>
-      <li>Familiarized with one or more MachineLearning and statistical modeling tools such as R, Matplotlib, scikit-learn, Tensorflow.</li>
-      <li>Performed advance EDA to determine the climate patterns that effect the crops and built end-to-end regression model on top of it.</li>
-    </ul>
+      <li>Built secure and scalable banking services in Java (Spring Boot), improving transaction efficiency and system resilience.</li>
+      <li>Developed a secure, scalable Banking application Using Spring MVC to implement Model View Controller design pattern and increased daily transactions by 15%.</li>
+      <li>Developed security for API using OAuth 2.0 token-based authentication/authorization using Spring Security.</li>
+      <li>Created and debugged SQL stored procedures, optimized queries for large datasets, and implemented real-time reporting features using T-SQL.</li>
+      <li>Integrated AWS services including S3 (data storage), RDS (managed DB), and Elastic Beanstalk (app deployment), resulting in a 20% improvement in deployment speed and system availability.</li>
+      <li>Diagnosed production bottlenecks using CloudWatch metrics, SQL profiling, and detailed logging, significantly reducing incident resolution time.</li>
+      <li>Integrated Subversion, GitHub for version control, JIRA for enhancing project management and software release.</li>
   </li>
 </ul>
 
 <h3 id="education">Education:</h3>
 <ul>
-  <li><strong>Indiana University</strong> (2019 - 2021)
+  <li><strong>Wayne State University</strong> (2022 - 2024)
     <ul>
-      <li>Master’s in Data Science</li>
-    </ul>
-  </li>
-  <li><strong>JNTU University</strong> (2014 - 2018)
-    <ul>
-      <li>Bachelor of Electronics and Communications</li>
+      <li>Master’s in Computer Science</li>
     </ul>
   </li>
 </ul>

@@ -12,7 +12,7 @@ comments: true
 #     show_overlay_excerpt: false
 #     actions:
 #     - label: "GitHub Code"
-#       url: "https://github.com/Prudhvi0001/fastai/blob/master/courses/ml1/lesson1-rf.ipynb"
+#       url: "https://github.com/Yeswanth0001/fastai/blob/master/courses/ml1/lesson1-rf.ipynb"
 tags: [RandomForest, Tips, fastai]
 ---
 

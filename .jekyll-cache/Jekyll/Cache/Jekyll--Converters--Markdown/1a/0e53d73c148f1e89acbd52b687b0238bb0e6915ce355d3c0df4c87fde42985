@@ -40,7 +40,7 @@
 
 <p>Rather than loading data and removing unnecessary columns that aren’t useful when processing your data. load only the useful columns.</p>
 
-<script src="https://gist.github.com/PrudhviVajja/b2a87550ccc9ad1e6eb94df82339b2ff.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/b2a87550ccc9ad1e6eb94df82339b2ff.js"></script>
 
 <h3 id="2-using-correct-dtypes-for-numerical-data"><strong>2<em>.</em> Using correct dtypes for numerical data:</strong></h3>
 
@@ -60,7 +60,7 @@
 
 <p>Pandas assign int64 to integer datatype by default, therefore by defining correct dtypes we can reduce memory usage significantly.</p>
 
-<script src="https://gist.github.com/PrudhviVajja/5d0d90e2e0d6adaea50cc7d4acf58e22.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/5d0d90e2e0d6adaea50cc7d4acf58e22.js"></script>
 
 <p><strong>🔥 Pro Tip:</strong> Use converters to replace missing values or NANs while loading data, especially for the columns that have predefined datatypes using dtype.</p>
 
@@ -77,11 +77,11 @@
 
 <p>And also columns such as Gender, etc.. can be stored as <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html">categorical</a> values which reduces the memory from ~1000 KB to ~100 KB. (check the sats)</p>
 
-<script src="https://gist.github.com/PrudhviVajja/f76c4c0318cd3785a27618a09f53fad3.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/f76c4c0318cd3785a27618a09f53fad3.js"></script>
 
 <p><strong>🔥 Pro Tip:</strong> If your DataFrame contains lots of empty values or missing values or NANs you can reduce their memory footprint by converting them to <a href="https://pandas.pydata.org/pandas-docs/stable/user_guide/sparse.html">Sparse Series</a>.</p>
 
-<script src="https://gist.github.com/PrudhviVajja/65b3c06c36b558f5de7af8fec49381fe.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/65b3c06c36b558f5de7af8fec49381fe.js"></script>
 
 <h3 id="4-nrows-skip-rows"><strong><em>4. nrows, skip rows</em></strong></h3>
 
@@ -167,7 +167,7 @@
 
 <p><strong>Note:</strong> loading data in chunks is actually slower than reading whole data directly as you need to concat the chunks again but you can load files with more than 10’s of GB’s easily.</p>
 
-<script src="https://gist.github.com/PrudhviVajja/8309cb7ca2e833b3401026acbd97cb2c.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/8309cb7ca2e833b3401026acbd97cb2c.js"></script>
 
 <iframe src="https://giphy.com/embed/3rgXBsmYd60rL3w7sc" width="480" height="240" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 <p><a href="https://giphy.com/gifs/nicolettegroome-animation-adventure-time-bmo-3rgXBsmYd60rL3w7sc">via GIPHY</a></p>
@@ -176,7 +176,7 @@
 
 <p>As pandas don’t have njobs variable to make use of multiprocessing power. we can utilize multiprocessinglibrary to handle chunk size operations asynchronously on multi-threads which can reduce the run time by half.</p>
 
-<script src="https://gist.github.com/PrudhviVajja/b0c7f7aab2bfe6a261d6ec957a07f609.js"></script>
+<script src="https://gist.github.com/YeswanthVajja/b0c7f7aab2bfe6a261d6ec957a07f609.js"></script>
 
 <blockquote>
   <p>**Note: **you need to define pool in <strong>main</strong> only because only main can distribute pool asynchronously among multiple processers.</p>
@@ -215,5 +215,5 @@
 
 <p>🔥 <a href="http://gouthamanbalaraman.com/">Gouthaman Balaraman</a> — quantitative finance with python (Must ✅).</p>
 
-<p>Connect with me on <a href="https://www.linkedin.com/in/prudhvi-vajja-22079610b/">Linkedin</a>.</p>
+<p>Connect with me on <a href="https://www.linkedin.com/in/Yeswanth-vajja-22079610b/">Linkedin</a>.</p>
 :ET

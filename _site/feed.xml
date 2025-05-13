@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prudhvi Vajja</title>
-    <description>Data Scientist Grad student at Indiana University</description>
+    <title>Yeswanth Vajja</title>
+    <description>Computer Science Grad student at Wayne State University</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Fri, 06 Nov 2020 16:48:28 -0500</pubDate>
@@ -540,7 +540,7 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 
 &lt;p&gt;Rather than loading data and removing unnecessary columns that aren’t useful when processing your data. load only the useful columns.&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/PrudhviVajja/b2a87550ccc9ad1e6eb94df82339b2ff.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/YeswanthVajja/b2a87550ccc9ad1e6eb94df82339b2ff.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;2-using-correct-dtypes-for-numerical-data&quot;&gt;&lt;strong&gt;2&lt;em&gt;.&lt;/em&gt; Using correct dtypes for numerical data:&lt;/strong&gt;&lt;/h3&gt;
 
@@ -560,7 +560,7 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 
 &lt;p&gt;Pandas assign int64 to integer datatype by default, therefore by defining correct dtypes we can reduce memory usage significantly.&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/PrudhviVajja/5d0d90e2e0d6adaea50cc7d4acf58e22.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/YeswanthVajja/5d0d90e2e0d6adaea50cc7d4acf58e22.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;🔥 Pro Tip:&lt;/strong&gt; Use converters to replace missing values or NANs while loading data, especially for the columns that have predefined datatypes using dtype.&lt;/p&gt;
 
@@ -577,11 +577,11 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 
 &lt;p&gt;And also columns such as Gender, etc.. can be stored as &lt;a href=&quot;https://pandas.pydata.org/pandas-docs/stable/user_guide/categorical.html&quot;&gt;categorical&lt;/a&gt; values which reduces the memory from ~1000 KB to ~100 KB. (check the sats)&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/PrudhviVajja/f76c4c0318cd3785a27618a09f53fad3.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/YeswanthVajja/f76c4c0318cd3785a27618a09f53fad3.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;🔥 Pro Tip:&lt;/strong&gt; If your DataFrame contains lots of empty values or missing values or NANs you can reduce their memory footprint by converting them to &lt;a href=&quot;https://pandas.pydata.org/pandas-docs/stable/user_guide/sparse.html&quot;&gt;Sparse Series&lt;/a&gt;.&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/PrudhviVajja/65b3c06c36b558f5de7af8fec49381fe.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/YeswanthVajja/65b3c06c36b558f5de7af8fec49381fe.js&quot;&gt;&lt;/script&gt;
 
 &lt;h3 id=&quot;4-nrows-skip-rows&quot;&gt;&lt;strong&gt;&lt;em&gt;4. nrows, skip rows&lt;/em&gt;&lt;/strong&gt;&lt;/h3&gt;
 
@@ -667,7 +667,7 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; loading data in chunks is actually slower than reading whole data directly as you need to concat the chunks again but you can load files with more than 10’s of GB’s easily.&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/PrudhviVajja/8309cb7ca2e833b3401026acbd97cb2c.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/YeswanthVajja/8309cb7ca2e833b3401026acbd97cb2c.js&quot;&gt;&lt;/script&gt;
 
 &lt;iframe src=&quot;https://giphy.com/embed/3rgXBsmYd60rL3w7sc&quot; width=&quot;480&quot; height=&quot;240&quot; frameborder=&quot;0&quot; class=&quot;giphy-embed&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href=&quot;https://giphy.com/gifs/nicolettegroome-animation-adventure-time-bmo-3rgXBsmYd60rL3w7sc&quot;&gt;via GIPHY&lt;/a&gt;&lt;/p&gt;
@@ -676,7 +676,7 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 
 &lt;p&gt;As pandas don’t have njobs variable to make use of multiprocessing power. we can utilize multiprocessinglibrary to handle chunk size operations asynchronously on multi-threads which can reduce the run time by half.&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/PrudhviVajja/b0c7f7aab2bfe6a261d6ec957a07f609.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://gist.github.com/YeswanthVajja/b0c7f7aab2bfe6a261d6ec957a07f609.js&quot;&gt;&lt;/script&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;**Note: **you need to define pool in &lt;strong&gt;main&lt;/strong&gt; only because only main can distribute pool asynchronously among multiple processers.&lt;/p&gt;
@@ -715,7 +715,7 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 
 &lt;p&gt;🔥 &lt;a href=&quot;http://gouthamanbalaraman.com/&quot;&gt;Gouthaman Balaraman&lt;/a&gt; — quantitative finance with python (Must ✅).&lt;/p&gt;
 
-&lt;p&gt;Connect with me on &lt;a href=&quot;https://www.linkedin.com/in/prudhvi-vajja-22079610b/&quot;&gt;Linkedin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Connect with me on &lt;a href=&quot;https://www.linkedin.com/in/Yeswanth-vajja-22079610b/&quot;&gt;Linkedin&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Oct 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2020/10/04/Load_data_faster/</link>
@@ -1343,9 +1343,9 @@ Type2-HostOS--&amp;gt;Type2-Hardware
 &lt;p&gt;&lt;em&gt;Okay, here’s an original one : 
 So, they ran a deep neural network to predict the hottest technological trend of 2014. Surprisingly, it predicted the answer to be deep neural networks! People accused it was biased. NN coders assumed it was probably due to the large initial bias.&lt;/em&gt;😅&lt;/p&gt;
 
-&lt;p&gt;To jump directly to &lt;a href=&quot;https://github.com/Prudhvi0001/MNIST/blob/master/MNIST_Pytorch.ipynb&quot;&gt;code&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To jump directly to &lt;a href=&quot;https://github.com/Yeswanth0001/MNIST/blob/master/MNIST_Pytorch.ipynb&quot;&gt;code&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/Prudhvi0001/Data-science-best-resources&quot;&gt;Here is a link for more best resources to learn Data Science.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Yeswanth0001/Data-science-best-resources&quot;&gt;Here is a link for more best resources to learn Computer Science.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;If you already used TenserFlow or keras to create Neural Network architecture this is gonna be a cake walk for you. Although TenserFlow is great for creating models it doesn’t’t support GPU as efficiently as PyTorch.&lt;/p&gt;
 

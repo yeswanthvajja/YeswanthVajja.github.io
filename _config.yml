@@ -1,13 +1,13 @@
 # Site settings
-title: Prudhvi Vajja 
-SEOTitle: ✨StarBoy✨ | Prudhvi Vajja
+title: Yeswanth Vajja 
+SEOTitle: ✨StarBoy✨ | Yeswanth Vajja
 header-img: img/people4.jpg
 header-mask: 1
-email: v.prudhvi0001@gmail.com
-description: "Data Scientist Grad student at Indiana University"
-keyword: "Data Science, machine Learning, Art, Prudhvi Vajja, "
-url: "https://PrudhviVajja.github.io"              # your host, for absolute URL
-baseurl: ""     #"https://PrudhviVajja.github.io"  # for example, '/blog' if your blog hosted on 'host/blog'
+email: yeswanthvajjaa@gmail.com
+description: "Computer Science Grad student at Wayne State University"
+keyword: "Data Structures and Algorithm, Machine Learning, Art, Yeswanth Vajja, "
+url: "https://YeswanthVajja.github.io"              # your host, for absolute URL
+baseurl: ""     #"https://YeswanthVajja.github.io"  # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -16,12 +16,12 @@ future: true
 RSS: True
 # weibo_username:     huxpro
 # zhihu_username:     huxpro
-github_username:    PrudhviVajja
-twitter_username:   Prudhvi_Vajja
+github_username:    yeswanthvajja
+#twitter_username:   Yeswanth_Vajja
 medium_username:    Star_Boy
-# Kaggle_username:    PrudhviVajja
+# Kaggle_username:    YeswanthVajja
 #facebook_username:  huxpro
-linkedin_username:  prudhvi-vajja-22079610b
+linkedin_username:  yeswanth-v-0b49181b1
 
 
 
@@ -64,7 +64,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: https-prudhvivajja-github-io
+disqus_username: https-Yeswanthvajja-github-io
 
 # Netease settings
 # netease_comment: false
