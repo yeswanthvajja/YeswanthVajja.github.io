@@ -3,7 +3,7 @@ title:  "Virtualization and how it all started..."
 subtitle: "From software, hardware to combination of both."
 date:   2020-11-01
 layout: post
-author: VJ
+author: Yeswanth Vajja
 # header-img: "https://unsplash.com/photos/34OTzkN-nuc"
 author_profile: true
 comments: true

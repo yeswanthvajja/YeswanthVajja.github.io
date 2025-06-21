@@ -3,7 +3,7 @@ title:  "⚡️Load the same csv file 10X faster and with 10X less memory.⚡️
 subtitle: "Pandas, Dask, MultiProcessing, Etc…"
 date:   2020-10-04
 layout: post
-author: VJ
+author: Yeswanth Vajja
 # header-img: "https://unsplash.com/photos/34OTzkN-nuc"
 classes: wide
 author_profile: true

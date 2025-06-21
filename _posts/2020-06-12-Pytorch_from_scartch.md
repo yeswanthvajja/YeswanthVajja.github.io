@@ -2,7 +2,7 @@
 title:  "Design your First Custom Neural Network from scratch Using PyTorch"
 date:   2020-06-12
 layout: post
-author: VJ
+author: Yeswanth Vajja
 classes: wide
 header-img: "assets/tape.gif"
 header-mask: 0.5

@@ -1,7 +1,7 @@
 ---
 title:  "Tricks to Improve your Random Forests"
 date:   2020-07-01
-author: VJ
+author: Yeswanth Vajja
 layout: post
 header-img: "assets/images/RandomForest/mountains.jpg"
 # header-mask: 0.1

@@ -2,7 +2,7 @@
 title:  "Introduction to Rcpp: making R much much faster"
 date:   2020-01-01
 layout: post
-author: Li Zeng
+author: Yeswanth Vajja
 author_profile: true
 comments: true
 tags: [R]
