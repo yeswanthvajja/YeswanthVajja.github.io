@@ -160,9 +160,11 @@ featured-condition-size: 1     # A tag will be featured if the size of it is mor
 ```
 
 The only thing need to be paid attention to is `featured-condition-size`, which indicate a criteria that tags need to have to be able to "featured". Internally, a condition 
+{% raw %}
 ```liquid
 {% if tag[1].size > site.featured-condition-size %}
 ```
+{% endraw %}
 are made.
 
 ### Friends
