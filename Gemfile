@@ -4,3 +4,5 @@ gem 'jekyll-paginate'
 
 gem "jekyll", "~> 4.0"
 gem "rake"
+gem 'faraday-retry'
+gem 'github-pages', group: :jekyll_plugins
