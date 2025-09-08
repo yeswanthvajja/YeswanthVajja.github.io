@@ -31,6 +31,6 @@
 [website]: https://YeswanthVajja.github.io
 [twitter]: https://twitter.com/VYeswanth0001
 [instagram]: https://www.instagram.com/yeswanthvajja/
-[linkedin]: https://www.linkedin.com/in/yeswanth-v-0b49181b1/
+[linkedin]: https://www.linkedin.com/
 [kaggle]: https://www.kaggle.com/Yeswanthvajja
 [resources]: https://YeswanthVajja.github.io/Resources/
